@@ -71,7 +71,7 @@ export default function Home() {
               <a href={waLink("Assalam o Alaikum, please share today's rate list.")} target="_blank" rel="noreferrer" className="btn btn-outline">Today's Rate List</a>
             </div>
           </div>
-          <img src="https://placehold.co/560x400/FFE6CC/3F4147?font=roboto&text=Mursalin+Traders" alt="Store" />
+          <img src="/images/hero-grocery.jpg" alt="Grocery shelves" className="cover" />
         </div>
       </section>
 
@@ -91,7 +91,7 @@ export default function Home() {
 
       <section className="section alt">
         <div className="container two-col">
-          <img src="https://placehold.co/560x380/FFF4E8/F7861C?font=roboto&text=Since+2020" alt="About us" />
+          <img src="/images/about-spices.jpg" alt="Spices" className="cover" loading="lazy" />
           <div>
             <span className="eyebrow">About Us</span>
             <h2>Serving Kohat Since {BUSINESS.since}</h2>

@@ -65,6 +65,7 @@ p + p { margin-top: 10px; }
 .hero h1 span { color: var(--primary); }
 .hero p { margin-top: 14px; font-size: 1.05rem; }
 .hero img, .two-col img { border-radius: var(--radius); box-shadow: var(--shadow); }
+.cover { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .page-head { background: var(--primary-soft); padding: 44px 0; text-align: center; border-bottom: 1px solid var(--border); }
 .page-head p { margin-top: 6px; }
 

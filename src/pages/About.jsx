@@ -13,7 +13,7 @@ export default function About() {
 
       <section className="section">
         <div className="container two-col">
-          <img src="https://placehold.co/560x380/FFF4E8/F7861C?font=roboto&text=Our+Store" alt="Our store" />
+          <img src="/images/about-rice.jpg" alt="Rice" className="cover" loading="lazy" />
           <div>
             <span className="eyebrow">Our Story</span>
             <h2>Trusted Supplier in Kohat Since {BUSINESS.since}</h2>
