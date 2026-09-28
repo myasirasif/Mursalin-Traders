@@ -13,7 +13,7 @@ export default function About() {
 
       <section className="section">
         <div className="container two-col">
-          <img src="/images/about-rice.jpg" alt="Rice" className="cover" loading="lazy" />
+          <img src="/images/about-store.jpg" alt="Our store" className="cover" loading="lazy" />
           <div>
             <span className="eyebrow">Our Story</span>
             <h2>Trusted Supplier in Kohat Since {BUSINESS.since}</h2>

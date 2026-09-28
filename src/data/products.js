@@ -1,4 +1,4 @@
-// [name, urdu, brand, minPrice, maxPrice, image file in /images/products-mix-images]
+// [name, urdu, brand, minPrice, maxPrice, image file in /images/<category>]
 const RAW = {
   Grocery: [
     ['Rice (Super Kernel) 1kg', 'چاول', 'Guard / Falak', 320, 380, 'rice'],
@@ -72,6 +72,6 @@ export const PRODUCTS = CATEGORIES.flatMap((category) =>
     min,
     max,
     sizes: sizes(min, max),
-    image: img ? `/images/products-mix-images/${img}.jpg` : placeholder(name),
+    image: img ? `/images/${category.toLowerCase()}/${img}.jpg` : placeholder(name),
   }))
 )
