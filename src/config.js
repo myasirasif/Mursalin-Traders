@@ -2,14 +2,15 @@ export const BUSINESS = {
   name: 'Mursalin Traders',
   tagline: 'Growth Through Trust',
   address: 'Gahri Risaldar, Hangu Road, Kohat',
-  email: 'muhammadyasirasif@gmail.com',
+  email: 'mursaleen5khan55w@gmail.com',
+  orderEmail: 'muhammadyasirasif@gmail.com', // orders + newsletter go here (FormSubmit)
   whatsapp: '923328611757',
   phone: '+92 332 8611757',
   since: 2020,
   mapEmbed: 'https://maps.google.com/maps?q=33.5942917,71.4153686&z=16&output=embed',
 }
 
-export const FORM_ENDPOINT = `https://formsubmit.co/ajax/${BUSINESS.email}`
+export const FORM_ENDPOINT = `https://formsubmit.co/ajax/${BUSINESS.orderEmail}`
 
 export const waLink = (text = '') =>
   `https://wa.me/${BUSINESS.whatsapp}${text ? `?text=${encodeURIComponent(text)}` : ''}`

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import { useCart } from '../CartContext'
 import { rs } from '../config'
 
@@ -31,7 +32,7 @@ export default function ProductCard({ product }) {
         </button>
       </div>
 
-      {open && (
+      {open && createPortal(
         <div className="modal-bg" onClick={() => setOpen(false)}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
             <button className="modal-close" onClick={() => setOpen(false)} aria-label="Close">×</button>
@@ -57,7 +58,7 @@ export default function ProductCard({ product }) {
             </button>
           </div>
         </div>
-      )}
+      , document.body)}
     </div>
   )
 }
