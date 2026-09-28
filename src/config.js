@@ -2,7 +2,7 @@ export const BUSINESS = {
   name: 'Mursalin Traders',
   tagline: 'Growth Through Trust',
   address: 'Gahri Risaldar, Hangu Road, Kohat',
-  email: 'mursaleen5khan55w@gmail.com',
+  email: 'muhammadyasirasif@gmail.com',
   whatsapp: '923328611757',
   phone: '+92 332 8611757',
   since: 2020,

@@ -192,6 +192,7 @@ input:focus, textarea:focus { border-color: var(--primary); }
 @media (max-width: 480px) {
   .product-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
   .card-body { padding: 12px; }
+  .card-body .btn { padding: 10px 8px; font-size: 0.9rem; }
   .footer-grid { grid-template-columns: 1fr; }
   .inline-form { flex-direction: column; }
 }
